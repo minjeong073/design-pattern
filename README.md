@@ -5,8 +5,8 @@
 
  No | Chapter                       | Done               |
 :-- | :-----------------------------| :------------------|
-| 1 | Strategy Pattern              | :white_check_mark  |
-| 2 | Observer Pattern              | :white_check_mark  |
+| 1 | Strategy Pattern              | :white_check_mark:  |
+| 2 | Observer Pattern              | :white_check_mark:  |
 | 3 | Decorator Pattern             | &#9744;            |
 | 4 | Factory Pattern               | &#9744;            |
 | 5 | Singleton Pattern             | &#9744;            |
@@ -24,9 +24,9 @@
 
  No | Chapter                       | Done               |
 :-- | :-----------------------------| :------------------|
-| 1 | Strategy Pattern              | :white_check_mark  |
-| 2 | Adapter Pattern               | :white_check_mark  |
-| 3 | Template Method Pattern       | :white_check_mark  |
+| 1 | Strategy Pattern              | :white_check_mark:  |
+| 2 | Adapter Pattern               | :white_check_mark:  |
+| 3 | Template Method Pattern       | :white_check_mark:  |
 | 4 | Factory Method Pattern        | :white_check_mark  |
 | 5 | Singleton Pattern             | &#9744;            |
 | 6 | Prototype  Pattern            | &#9744;            |
