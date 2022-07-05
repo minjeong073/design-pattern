@@ -27,7 +27,7 @@
 | 1 | Strategy Pattern              | :white_check_mark:  |
 | 2 | Adapter Pattern               | :white_check_mark:  |
 | 3 | Template Method Pattern       | :white_check_mark:  |
-| 4 | Factory Method Pattern        | :white_check_mark  |
+| 4 | Factory Method Pattern        | :white_check_mark:  |
 | 5 | Singleton Pattern             | &#9744;            |
 | 6 | Prototype  Pattern            | &#9744;            |
 | 7 | Builder Patterns              | &#9744;            |
