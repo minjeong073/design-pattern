@@ -28,8 +28,8 @@
 | 2 | Adapter Pattern               | :white_check_mark:  |
 | 3 | Template Method Pattern       | :white_check_mark:  |
 | 4 | Factory Method Pattern        | :white_check_mark:  |
-| 5 | Singleton Pattern             | &#9744;            |
-| 6 | Prototype  Pattern            | &#9744;            |
+| 5 | Singleton Pattern             | :white_check_mark:  |
+| 6 | Prototype  Pattern            | :white_check_mark:  |
 | 7 | Builder Patterns              | &#9744;            |
 | 8 | Abstract Factory Pattern      | &#9744;            |
 | 9 | Bridge Patterns               | &#9744;            |
