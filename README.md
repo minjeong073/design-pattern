@@ -7,8 +7,8 @@
 :-- | :-----------------------------| :------------------|
 | 1 | Strategy Pattern              | :white_check_mark:  |
 | 2 | Observer Pattern              | :white_check_mark:  |
-| 3 | Decorator Pattern             | &#9744;            |
-| 4 | Factory Pattern               | &#9744;            |
+| 3 | Decorator Pattern             | :white_check_mark:  |
+| 4 | Factory Pattern               | :white_check_mark:  |
 | 5 | Singleton Pattern             | &#9744;            |
 | 6 | Command  Pattern              | &#9744;            |
 | 7 | Adapter & Facade Patterns     | &#9744;            |
