@@ -10,7 +10,7 @@
 | 3 | Decorator Pattern             | :white_check_mark:  |
 | 4 | Factory Pattern               | :white_check_mark:  |
 | 5 | Singleton Pattern             | :white_check_mark:  |
-| 6 | Command  Pattern              | :black_square_button: |
+| 6 | Command  Pattern              | :white_check_mark:  |
 | 7 | Adapter & Facade Patterns     | :black_square_button: |
 | 8 | Template Method Pattern       | :black_square_button: |
 | 9 | Iterator & Composite Patterns | :black_square_button: |
@@ -30,7 +30,7 @@
 | 4 | Factory Method Pattern        | :white_check_mark:  |
 | 5 | Singleton Pattern             | :white_check_mark:  |
 | 6 | Prototype  Pattern            | :white_check_mark:  |
-| 7 | Builder Patterns              | :black_square_button: |
+| 7 | Builder Patterns              | :white_check_mark:  |
 | 8 | Abstract Factory Pattern      | :black_square_button: |
 | 9 | Bridge Patterns               | :black_square_button: |
 | 10 | Composite Pattern            | :black_square_button: |
