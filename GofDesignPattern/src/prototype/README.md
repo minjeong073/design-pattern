@@ -72,17 +72,17 @@ public Circle deepCopy() {
 
 + 예
   + Product(framework package) 
-    : 추상 메서드 use, createClone 이 선언된 인터페이스
-    : 이 인터페이스를 구현하고 있는 클래스라면 인스턴스 복제 가능
+    + 추상 메서드 use, createClone 이 선언된 인터페이스
+    + 이 인터페이스를 구현하고 있는 클래스라면 인스턴스 복제 가능
   + Manager(framework package)
-    : createClone 을 사용해서 인스턴스 복제하는 클래스
-    : 구체적으로 어느 클래스의 인스턴스를 복제하는지는 관여하지 않음
+    + createClone 을 사용해서 인스턴스 복제하는 클래스
+    + 구체적으로 어느 클래스의 인스턴스를 복제하는지는 관여하지 않음
   + MassageBox(Anonymous package)
-    : 문자열을 테두리로 표시하는 클래스
-    : use, createClone 구현
+    + 문자열을 테두리로 표시하는 클래스
+    + use, createClone 구현
   + UnderlinePen(Anonymous package)
-    : 문자열에 밑줄을 표시하는 클래스
-    : use, createClone 구현
+    + 문자열에 밑줄을 표시하는 클래스
+    + use, createClone 구현
   
 
 + Prototype Pattern 필요성
