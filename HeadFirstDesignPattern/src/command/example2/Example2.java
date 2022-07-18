@@ -12,8 +12,10 @@ interface Command {
 }
 
 class NoCommand implements Command {
+    @Override
     public void execute() {}
 
+    @Override
     public void undo() {}
 }
 
@@ -90,10 +92,12 @@ class LightOnCommand implements Command {
         this.light = light;
     }
 
+    @Override
     public void execute() {
         light.on();
     }
 
+    @Override
     public void undo() {
         light.off();    // ++
     }
@@ -106,10 +110,12 @@ class LightOffCommand implements Command {
         this.light = light;
     }
 
+    @Override
     public void execute() {
         light.off();
     }
 
+    @Override
     public void undo() {    // ++
         light.on();
     }
