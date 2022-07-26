@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GofDesignPattern/GofDesignPattern.iml" filepath="$PROJECT_DIR$/GofDesignPattern/GofDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HeadFirstDesignPattern/HeadFirstDesignPattern.iml" filepath="$PROJECT_DIR$/HeadFirstDesignPattern/HeadFirstDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/design-pattern.iml" filepath="$PROJECT_DIR$/.idea/design-pattern.iml" />
+    </modules>
+  </component>
+</project>

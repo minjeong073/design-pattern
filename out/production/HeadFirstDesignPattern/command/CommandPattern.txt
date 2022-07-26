@@ -1,0 +1,97 @@
+Command Pattern
+
+(ex1 + ex2)
+interface Command
+	execute()
+	undo()
+
+class NoCommand
+	execute() {}
+	undo() {}
+
+
+class RemoteControl
+	onCommands[]
+	offCommands[]
+	undoCommand
+
+	RemoteControl() { noCommand }
+	setCommand(slot, onCommand, offCommand)
+	onButtonWasPushed(slot) {
+		onCommands[slot].excute()
+		undoCommand = onCommands[slot]
+	}
+	offButtonWasPushed(slot) {
+		offCommands[slot].execute()
+		undoCommand = offCommands[slot]
+	}
+	undoButtonWasPushed() {
+		undoCommand.undo()
+	}
+
+
+class Light
+	Light(location) { location }
+	on() { sout("light on") }
+	off() { sout("light off") }
+
+class LightOnCommand 
+	LightOnCommand(light) { light }
+	execute() { light.on() }
+	undo() { light.off() }
+
+class LightOffCommand
+	LightOffCommand(light) { light }
+	execute() { light.off() }
+	undo() { light.on() }
+
+(ex3)
+class CeilingFan
+	CeilingFan(location) { location }
+	high() { sout( "fan to high") }
+	medium() { sout("fan to medium") }
+	low() { sout("fan to low") }
+	off() { sout("fan off") }
+	getSpeed()
+	
+class CeilingFanOffCommand
+	prevSpeed = CeilingFan.OFF
+	CeilingFanOffCommand(ceilingFan) { ceilingFan }
+	execute() { ceilingFan.off() }
+	undo() { if ... }
+
+class CeilingFanHighCommand
+	prevSpeed = CeilingFan.OFF
+	CeilingFanHighCommand(ceilingFan) { ceilingFan }
+	execute() { ceilingFan.high() }
+	undo() { if ... }
+
+(ex4)
+class MacroCommand
+	commands[]
+	MacroCommand(commands[]) { commands }
+	execute() {
+		fori { commands[i].execute() }
+	}
+	undo() {
+		fori { commands[i].undo() }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
