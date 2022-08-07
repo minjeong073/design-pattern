@@ -1,4 +1,4 @@
-package adapterAndFacade.example1;
+package adapterAndFacade.adapter.example1;
 
 public class Test {
     public static void main(String[] args) {

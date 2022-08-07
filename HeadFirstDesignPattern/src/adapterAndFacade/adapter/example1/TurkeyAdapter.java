@@ -1,4 +1,4 @@
-package adapterAndFacade.example1;
+package adapterAndFacade.adapter.example1;
 
 public class TurkeyAdapter implements Duck{
     Turkey turkey;

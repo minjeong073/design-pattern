@@ -1,4 +1,4 @@
-package adapterAndFacade.example1;
+package adapterAndFacade.adapter.example1;
 
 public interface Duck {
     void quack();
