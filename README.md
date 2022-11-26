@@ -32,7 +32,7 @@
 | 6 | Prototype  Pattern            | :white_check_mark:  |
 | 7 | Builder Patterns              | :white_check_mark:  |
 | 8 | Abstract Factory Pattern      | :white_check_mark:  |
-| 9 | Bridge Patterns               | :black_square_button: |
+| 9 | Bridge Patterns               | :white_check_mark: |
 | 10 | Composite Pattern            | :black_square_button: |
 | 11 | Proxy Pattern                | :black_square_button: |
 | 12 | Compound Patterns            | :black_square_button: |
@@ -130,3 +130,6 @@
 | Template Method         | 상위 클래스는 알고리즘의 골격만을 작성, 구체적인 처리는 서브 클래스로 위임                 |
 | Visitor                 | 객체의 원소에 대해 수행할 연산을 분리하여 별도의 클래스로 구성                        |
 
+
+참고
+https://catsbi.oopy.io/344dbe7b-9774-48fc-9c95-b554e9c1c4bc
