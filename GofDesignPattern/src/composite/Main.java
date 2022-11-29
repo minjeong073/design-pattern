@@ -17,6 +17,7 @@ public class Main {
 
             binDir.add(new File("vi", 10000));
             binDir.add(new File("latex", 20000));
+            rootDir.printList();
 
             System.out.println("");
             System.out.println("Making user entries");
@@ -46,6 +47,12 @@ public class Main {
 결과
 
 Making root entries ...
+/root (30000)
+/root/bin (30000)
+/root/bin/vi (10000)
+/root/bin/latex (20000)
+/root/tmp (0)
+/root/usr (0)
 
 Making user entries
 /root (31500)
